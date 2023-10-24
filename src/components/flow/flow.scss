@@ -1,0 +1,18 @@
+.waterfall {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 0 auto;
+  max-width: 100%px;
+  padding: 10px;
+  grid-auto-flow: dense;
+}
+
+.waterfall-image {
+  width: 320px;
+  height: 240px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 5px;
+}

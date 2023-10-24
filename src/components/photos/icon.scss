@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4296824 */
+  /* Color fonts */
+  src: 
+       url('//at.alicdn.com/t/c/font_4296824_hohgyau2zoa.woff2?t=1698132436609') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4296824_hohgyau2zoa.woff?t=1698132436609') format('woff'),
+       url('//at.alicdn.com/t/c/font_4296824_hohgyau2zoa.ttf?t=1698132436609') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Map:before {
+  content: "\e86a";
+}
+
+.icon-Photo:before {
+  content: "\e86b";
+}
+
+.icon-a-BoundlessNotes:before {
+  content: "\e86c";
+}
+
+.icon-grid:before {
+  content: "\e60c";
+}
+
+.icon-layout-2-fill:before {
+  content: "\e617";
+}
+
+.icon-huifumorenbuju:before {
+  content: "\e673";
+}
+
+.icon-buju:before {
+  content: "\e80f";
+}
+
+.icon-iso:before {
+  content: "\e70f";
+}
+
+.icon-pengyouquan:before {
+  content: "\e8b4";
+}
+
+.icon-yanjing:before {
+  content: "\e8bf";
+}
+
+.icon-jishiqi:before {
+  content: "\e642";
+}

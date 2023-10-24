@@ -1,0 +1,19 @@
+//手机端函数
+@mixin mobile {
+    @media (max-width: 738px) {
+      @content;
+    }
+  }
+  //平板端函数
+  @mixin tablet {
+    @media (max-width: 1024px) {
+      @content;
+    }
+  }
+  //电脑端函数
+  @mixin desktop {
+    @media (max-width: 1366px) {
+      @content;
+    }
+  }
+  
